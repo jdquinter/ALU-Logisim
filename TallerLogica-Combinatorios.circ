@@ -672,6 +672,7 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
+    <comp lib="0" loc="(320,330)" name="Constant"/>
     <comp lib="0" loc="(320,490)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
@@ -693,7 +694,6 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(440,350)" name="Constant"/>
     <comp lib="0" loc="(80,350)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
@@ -801,16 +801,15 @@
     <wire from="(1660,350)" to="(1660,590)"/>
     <wire from="(1660,590)" to="(1660,1210)"/>
     <wire from="(1740,80)" to="(1740,570)"/>
-    <wire from="(1760,110)" to="(1850,110)"/>
     <wire from="(1760,40)" to="(1860,40)"/>
     <wire from="(1760,50)" to="(1860,50)"/>
     <wire from="(1760,60)" to="(1870,60)"/>
-    <wire from="(1760,70)" to="(1760,110)"/>
+    <wire from="(1760,70)" to="(1850,70)"/>
     <wire from="(1810,300)" to="(1810,330)"/>
     <wire from="(1810,300)" to="(1820,300)"/>
     <wire from="(1810,330)" to="(1860,330)"/>
     <wire from="(1820,290)" to="(1820,300)"/>
-    <wire from="(1850,10)" to="(1850,110)"/>
+    <wire from="(1850,10)" to="(1850,70)"/>
     <wire from="(1850,10)" to="(1860,10)"/>
     <wire from="(1860,100)" to="(1870,100)"/>
     <wire from="(1860,50)" to="(1860,100)"/>
@@ -871,8 +870,7 @@
     <wire from="(530,540)" to="(530,600)"/>
     <wire from="(530,600)" to="(570,600)"/>
     <wire from="(530,930)" to="(530,1050)"/>
-    <wire from="(540,310)" to="(540,330)"/>
-    <wire from="(540,330)" to="(660,330)"/>
+    <wire from="(540,310)" to="(570,310)"/>
     <wire from="(540,570)" to="(540,680)"/>
     <wire from="(540,570)" to="(570,570)"/>
     <wire from="(540,920)" to="(540,980)"/>
@@ -890,6 +888,8 @@
     <wire from="(560,1080)" to="(560,1090)"/>
     <wire from="(560,1090)" to="(580,1090)"/>
     <wire from="(560,420)" to="(610,420)"/>
+    <wire from="(570,310)" to="(570,330)"/>
+    <wire from="(570,330)" to="(660,330)"/>
     <wire from="(610,420)" to="(610,480)"/>
     <wire from="(610,480)" to="(850,480)"/>
     <wire from="(620,550)" to="(800,550)"/>
