@@ -627,6 +627,12 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
+    <comp lib="0" loc="(1860,10)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="N"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(1860,330)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
@@ -634,25 +640,19 @@
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1880,20)" name="Pin">
+    <comp lib="0" loc="(1860,40)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(1890,110)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="N"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(1890,50)" name="Pin">
+    <comp lib="0" loc="(1870,100)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(1890,80)" name="Pin">
+    <comp lib="0" loc="(1870,70)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="V"/>
@@ -773,19 +773,20 @@
     <wire from="(1660,350)" to="(1660,590)"/>
     <wire from="(1660,590)" to="(1660,1210)"/>
     <wire from="(1740,80)" to="(1740,570)"/>
-    <wire from="(1760,110)" to="(1890,110)"/>
-    <wire from="(1760,40)" to="(1870,40)"/>
-    <wire from="(1760,50)" to="(1890,50)"/>
+    <wire from="(1760,110)" to="(1850,110)"/>
+    <wire from="(1760,40)" to="(1860,40)"/>
+    <wire from="(1760,50)" to="(1860,50)"/>
     <wire from="(1760,60)" to="(1870,60)"/>
     <wire from="(1760,70)" to="(1760,110)"/>
     <wire from="(1810,300)" to="(1810,330)"/>
     <wire from="(1810,300)" to="(1820,300)"/>
     <wire from="(1810,330)" to="(1860,330)"/>
     <wire from="(1820,290)" to="(1820,300)"/>
-    <wire from="(1870,20)" to="(1870,40)"/>
-    <wire from="(1870,20)" to="(1880,20)"/>
-    <wire from="(1870,60)" to="(1870,80)"/>
-    <wire from="(1870,80)" to="(1890,80)"/>
+    <wire from="(1850,10)" to="(1850,110)"/>
+    <wire from="(1850,10)" to="(1860,10)"/>
+    <wire from="(1860,100)" to="(1870,100)"/>
+    <wire from="(1860,50)" to="(1860,100)"/>
+    <wire from="(1870,60)" to="(1870,70)"/>
     <wire from="(220,110)" to="(220,180)"/>
     <wire from="(220,110)" to="(430,110)"/>
     <wire from="(220,180)" to="(220,290)"/>
@@ -931,13 +932,13 @@
     <comp lib="0" loc="(1280,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="Z"/>
+      <a name="label" val="N"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1280,240)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="C"/>
+      <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1280,260)" name="Pin">
@@ -949,7 +950,7 @@
     <comp lib="0" loc="(1280,280)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="N"/>
+      <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(540,220)" name="Clock"/>
